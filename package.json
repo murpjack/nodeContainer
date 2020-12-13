@@ -1,0 +1,29 @@
+{
+  "name": "nodecontainer",
+  "version": "1.0.0",
+  "description": "Playing with docker and node js.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murpjack/nodeContainer.git"
+  },
+  "keywords": [
+    "docker",
+    "nodeJS"
+  ],
+  "author": "Jack Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murpjack/nodeContainer/issues"
+  },
+  "homepage": "https://github.com/murpjack/nodeContainer#readme",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "paperplane": "^3.1.2",
+    "ramda": "^0.27.1"
+  }
+}
